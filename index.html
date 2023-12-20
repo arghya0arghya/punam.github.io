@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Single page portfolio website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="hero-header">
+      <div class="wrapper">
+        <header>
+          <div class="logo">
+            <i class="fa-solid fa-p"></i>
+            <div class="logo-text">Punam Talukder</div>
+          </div>
+          <nav>
+            <!-- <div class="togglebtn">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div> -->
+            <ul class="navlinks">
+              <li><a href="#">Interaction Zone</a></li>
+              <!-- <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Resume</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Blog</a></li> -->
+            </ul>
+          </nav>
+        </header>
+        <div class="container">
+          <div class="hero-pic">
+            <img src="p3.jpg" alt="profiile pic" />
+          </div>
+          <div class="hero-text">
+            <h5>Hi I'm a <span class="input"></span></h5>
+            <h1>Punam Talukder</h1>
+            <p>
+              I'm a skillful private tutor from kolkata. I am currently pursuing
+              my B.A degree in political science from Rabindra Bharati
+              University formally known as RBU, West Bengal. I am a home tutor
+              and I am looking for opportunities to work with you to teach my
+              students. I am a quick & enthusiastic learner and loves to
+              teach.<br /><br />
+              I've the ability to simplify complex concepts, making them
+              accessible to my students. Her commitment to
+              creating a positive and nurturing atmosphere enhances the learning
+              experience, encouraging students to excel academically and develop
+              a genuine love for the subjects.
+            </p>
+            <div class="btn-group">
+              <a href="cv.pdf" class="btn active">Download CV</a>
+              <a href="mailto:punamtalukder5@gmail.com" class="btn">Contact</a>
+            </div>
+            <div class="social">
+              <a
+                href="https://www.facebook.com/profile.php?id=100078133896433&mibextid=2JQ9oc"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://linkedin.com/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/_itz_all_about_craziness?igshid=OGQ5ZDc2ODk2ZA=="
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+    <script>
+      var togglebtn = document.querySelector(".togglebtn");
+      var togglebtn = document.querySelector(".navlinks");
+      var togglebtn = document.querySelector(".navlinks li");
+
+      togglebtn.addEventListener("click", function () {
+        this.classList.toggle("click");
+        nav.classList.toggle("open");
+      });
+      var typed = new Typed(".input", {
+        strings: ["B.A. Graduate", "Classical Dancer", "Enthusiastic Learner"],
+        typeSpeed: 50,
+        backSpeed: 80,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
